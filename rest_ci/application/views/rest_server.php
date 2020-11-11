@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>REST Server Tests</title>
+    <title>REST Server</title>
 
     <style>
 

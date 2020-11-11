@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="<?=base_url()?>assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Light Bootstrap Dashboard by Creative Tim</title>
+	<title>Clinic</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -33,7 +33,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="<?=base_url()?>assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="green" data-image="<?=base_url()?>assets/img/sidebar-5.jpg">
 
     <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
 

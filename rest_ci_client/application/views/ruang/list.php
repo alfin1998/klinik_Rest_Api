@@ -4,7 +4,7 @@
             <div class="header">
                 <h4 class="title">Ruang</h4>
                 <p class="category">Data Ruang</p>
-                <a href="http://localhost/klinik/rest_ci_client/index.php/ruang/create" class="btn btn-success">Tambah data<a>
+                <a href="http://localhost:8080/klinik/rest_ci_client/index.php/ruang/create" class="btn btn-success">Tambah data<a>
             </div>
             <div class="content table-responsive table-full-width">
                 <table class="table table-hover table-striped">

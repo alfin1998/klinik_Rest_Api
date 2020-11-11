@@ -4,7 +4,7 @@
             <div class="header">
                 <h4 class="title">Dokter</h4>
                 <p class="category">Data Profil Dokter</p>
-                <a href="http://localhost/klinik/rest_ci_client/index.php/dokter/create" class="btn btn-success">Tambah data<a>
+                <a href="http://localhost:8080/klinik/rest_ci_client/index.php/dokter/create" class="btn btn-success">Tambah data<a>
             </div>
             <div class="content table-responsive table-full-width">
                 <table class="table table-hover table-striped">
@@ -20,18 +20,18 @@
                     </thead>
                     <tbody>
                     <?php
-                    foreach ($datadokter as $dokter)
+                    foreach ($datadokter as $datadokter)
 					{
 						echo "<tr>
-						<td>$dokter->id_dokter</td>
-						<td>$dokter->nama</td>
-						<td>$dokter->spesialis</td>
-						<td>$dokter->jk</td>
-						<td>$dokter->tarif</td>
-						<td>$dokter->notelp</td>
-						<td>$dokter->id_ruang</td>
-						<td>".anchor('dokter/edit/'.$dokter->id_dokter, 'Edit')." |
-						".anchor('dokter/delete/'.$dokter->id_dokter, 'Delete',array('onclick'=>"return confirm('Do you want delete this record')"))."
+						<td>$datadokter->id_dokter</td>
+						<td>$datadokter->nama</td>
+						<td>$datadokter->spesialis</td>
+						<td>$datadokter->jk</td>
+						<td>$datadokter->tarif</td>
+						<td>$datadokter->notelp</td>
+						<td>$datadokter->id_ruang</td>
+						<td>".anchor('dokter/edit/'.$datadokter->id_dokter, 'Edit')." |
+						".anchor('dokter/delete/'.$datadokter->id_dokter, 'Delete',array('onclick'=>"return confirm('Do you want delete this record')"))."
 						</td>
 						</tr>";
 					}
