@@ -6,7 +6,7 @@ class Dokter extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->API="http://localhost/klinik/rest_ci/index.php";
+		$this->API="http://localhost:8080/klinik/rest_ci/index.php";
 		$this->load->library('session');
 		$this->load->library('curl');
 		$this->load->helper('form');
